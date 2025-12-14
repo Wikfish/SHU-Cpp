@@ -1,9 +1,8 @@
 #pragma once
 #include<vector>
 #include<iostream>
-using std::vector;
 template<typename VEC>
-void TypePrint(const vector<VEC>& vec) {
+void TypePrint(const std::vector<VEC>& vec) {
 	for (const VEC& x : vec) {
 		std::cout << x << ' ';
 	}
